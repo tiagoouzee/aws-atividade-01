@@ -2,9 +2,9 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 namespace aws_atividade_01_win_forms
 {    
-    public partial class Form1 : Form
+    public partial class frmProtocoloHttp : Form
     {
-        public Form1()
+        public frmProtocoloHttp()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace aws_atividade_01_win_forms
 {
-    partial class Form1
+    partial class frmProtocoloHttp
     {
         /// <summary>
         ///  Required designer variable.
@@ -34,7 +34,7 @@
             // 
             // btnExecutar
             // 
-            this.btnExecutar.Location = new System.Drawing.Point(527, 105);
+            this.btnExecutar.Location = new System.Drawing.Point(516, 155);
             this.btnExecutar.Name = "btnExecutar";
             this.btnExecutar.Size = new System.Drawing.Size(79, 26);
             this.btnExecutar.TabIndex = 1;
@@ -51,15 +51,15 @@
             this.textBox1.Size = new System.Drawing.Size(495, 309);
             this.textBox1.TabIndex = 2;
             // 
-            // Form1
+            // frmProtocoloHttp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(633, 329);
+            this.ClientSize = new System.Drawing.Size(607, 329);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnExecutar);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmProtocoloHttp";
+            this.Text = "AWS - Protocolo HTTP | Atividade 01";
             this.ResumeLayout(false);
             this.PerformLayout();
 
