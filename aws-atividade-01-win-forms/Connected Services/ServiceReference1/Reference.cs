@@ -585,7 +585,6 @@ namespace ServiceReference1
                 result.ReaderQuotas = System.Xml.XmlDictionaryReaderQuotas.Max;
                 result.MaxReceivedMessageSize = int.MaxValue;
                 result.AllowCookies = true;
-                result.Security.Mode = System.ServiceModel.BasicHttpSecurityMode.Transport;
                 return result;
             }
             throw new System.InvalidOperationException(string.Format("Não foi possível encontrar o ponto de extremidade com o nome \'{0}\'.", endpointConfiguration));
@@ -595,7 +594,7 @@ namespace ServiceReference1
         {
             if ((endpointConfiguration == EndpointConfiguration.SOAPDemoSoap))
             {
-                return new System.ServiceModel.EndpointAddress("https://www.crcind.com/csp/samples/SOAP.Demo.cls");
+                return new System.ServiceModel.EndpointAddress("http://www.crcind.com/csp/samples/SOAP.Demo.cls");
             }
             throw new System.InvalidOperationException(string.Format("Não foi possível encontrar o ponto de extremidade com o nome \'{0}\'.", endpointConfiguration));
         }

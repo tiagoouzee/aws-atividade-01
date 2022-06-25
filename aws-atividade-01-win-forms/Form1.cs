@@ -17,7 +17,8 @@ namespace aws_atividade_01_win_forms
         private void button1_Click(object sender, EventArgs e)
         {
             var objServicoWeb = new ServiceReference1.SOAPDemoSoapClient();
-                                                
+                           
+            
             //Executa o método AddInteger 
             textBox1.AppendText("Executando metódo AddInteger (1 + 2)");
             textBox1.Text += Environment.NewLine + "****Resultado: " + objServicoWeb.AddIntegerAsync(1, 2).Result.ToString();
